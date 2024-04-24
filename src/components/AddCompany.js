@@ -14,7 +14,7 @@ const AddCompany = () => {
 
   const handleAddCompany = async () => {
     try {
-      const response = await axios.post('http://localhost:3500/api/companies', companyDetails);
+      const response = await axios.post('https://cvms-backend-psi.vercel.app/api/companies', companyDetails);
       console.log('Response:', response.data);
       // Handle success or update your state based on the response
     } catch (error) {
