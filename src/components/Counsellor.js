@@ -5,7 +5,7 @@ import axios from 'axios';
 const Counsellor = () => {
     const [counsellors, setCounsellors] = useState([]);
     useEffect(() => {
-        axios.get('http://localhost:3500/counsellor')
+        axios.get('https://cvms-backend-psi.vercel.app/counsellor')
         .then((response) => {
             setCounsellors(response.data); // Corrected to access response.data
         })
