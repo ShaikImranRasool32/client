@@ -14,7 +14,7 @@ function OtpMail() {
             const data = {
                 semail
             };
-            await axios.post("http://localhost:3500/api/sendotp", data);
+            await axios.post("https://cvms-backend-psi.vercel.app/api/sendotp", data);
             console.log("OTP Sent Successfully");
             navigate(`/verifyotp?email=${semail}`);
         } catch (error) {
