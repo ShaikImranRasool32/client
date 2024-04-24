@@ -16,7 +16,7 @@ function SendMail({ initialEmail, initialSubject, initialMessage }) {
         };
 
         try {
-            await axios.post("http://localhost:3500/api/sendMail", data);
+            await axios.post("https://cvms-backend-psi.vercel.app/api/sendMail", data);
             console.log("Email sent successfully");
         } catch (error) {
             console.error("Error sending email", error);
