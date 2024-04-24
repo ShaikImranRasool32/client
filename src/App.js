@@ -15,7 +15,6 @@ import ContactUs from './components/ContactUs';
 import Login from './components/Login.js';
 import Appointment from './components/Appointment.js';
 import Filter from './components/Filter.js';
-import GitHub from './components/GitHub.js';
 import CounsellorDetails from './components/CounsellorDetails.js';
 import Logout from './components/Logout';
 import Home3 from './components/Home3.js';
