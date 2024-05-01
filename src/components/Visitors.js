@@ -7,7 +7,7 @@ import "./styles.css";
 const Visitors = () => {
     const [visitors, setVisitors] = useState([]);
     useEffect(() => {
-        axios.get('http://localhost:3500/visitor')
+        axios.get('https://server-pi-ivory.vercel.app/visitor')
         .then((response) => {
             setVisitors(response.data); // Corrected to access response.data
         })
