@@ -32,7 +32,7 @@ const AllStudentsCard = ({ allStudents, setAllStudents }) => {
     const handleEditSubmit = async () => {
         try {
             // Send a PUT request to update the student details
-            await API.put(`https://server-pi-ivory.vercel.app/students/${editedStudent.ID}`, {
+            await API.put(`https://server-pi-ivory.vercel.app/${editedStudent.ID}`, {
                 name: editedName,
                 course: editedCourse,
                 cgpa: editedCGPA,
