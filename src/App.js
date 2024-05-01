@@ -5,7 +5,6 @@ import {Toaster} from 'react-hot-toast';
 import { AuthProvider } from './Token/AuthContext.js';
 //import Header from './components/Header';
 import Student from './components/Student.js';
-import Parent from './components/Parent';
 import Footer from './components/Footer';
 import Visitors from './components/Visitors';
 import Counsellor from './components/Counsellor';
@@ -42,7 +41,6 @@ const App = () => {
       <Route path="home" element={<Home/>} />
       <Route path="Student" element={<Student/>} />
       <Route path="Counsellor" element={<Counsellor/>} />
-      <Route path="Parent" element={<Parent/>} />
       <Route path="Visitor" element={<Visitors/>} />
       <Route path="ContactUs" element={<ContactUs/>} />
       <Route path='Filter' element={<Filter/>}/>
