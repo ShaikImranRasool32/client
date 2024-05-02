@@ -12,6 +12,7 @@ const AddCompany = () => {
     CURL: '',
   });
 
+  
   const handleAddCompany = async () => {
     try {
       const response = await axios.post('https://server-pi-ivory.vercel.app/api/companies', companyDetails);
