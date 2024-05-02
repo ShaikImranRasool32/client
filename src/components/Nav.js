@@ -66,6 +66,8 @@ function ResponsiveAppBar() {
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
+              fontSize: { xs: '1.5rem', md: '2rem' }, // Adjust font size for responsiveness
+              display: { xs: 'block', md: 'none' } // Show on xs (extra small) screens and hide on md (medium) screens
             }}
           >
             CVMS
