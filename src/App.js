@@ -56,6 +56,8 @@ const App = () => {
       <Route path='AddCompany' element={<AddCompany/>}/>
       <Route path='OtpMail' element={<OtpMail/>}/>
       <Route path='VerifyOtp' element={<VerifyOtp/>}/>
+      <Route path='Upload' element={<Upload/>}/>
+
 
 
 
