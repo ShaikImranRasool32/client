@@ -12,7 +12,7 @@ const CompaniesQR = () => {
   useEffect(() => {
     const fetchCompanies = async () => {
       try {
-        const response = await axios.get('https://server-pi-ivory.vercel.app//api/companies');
+        const response = await axios.get('https://server-pi-ivory.vercel.app/api/companies');
         setCompanies(response.data);
       } catch (error) {
         console.error('Error fetching companies:', error);
