@@ -14,7 +14,7 @@ function Upload() {
         const formData = new FormData();
         formData.append('csvFile', selectedFile);
         try {
-            await axios.post("http://localhost:3500/uploadcsv", formData);
+            await axios.post("https://server-pi-ivory.vercel.app/uploadcsv", formData);
             console.log("File uploaded successfully!");
         } catch (error) {
             console.error("Error uploading file:", error);
